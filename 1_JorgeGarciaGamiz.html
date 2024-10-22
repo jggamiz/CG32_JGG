@@ -5,22 +5,24 @@
     </head>
     <body>
         <h1>Let's draw a rectangle</h1>
-		<h4>Jorge Garcia Gamiz</h4>
-        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #c3c3c3;">
+	<h4>Jorge Garcia Gamiz</h4>
+        
+	<canvas id="myCanvas" width="200" height="100" style="border:1px solid #c3c3c3;">
         </canvas>
 		
-		<script>
-            var canvas = document.getElementById("myCanvas");
-            var ctx = canvas.getContext("2d");
+	<script>
+		// The program chosen sample file from class
+            	var canvas = document.getElementById("myCanvas");
+           	var ctx = canvas.getContext("2d");
 				
-			/*
-            ctx.fillStyle = "red";
-            ctx.fillRect(50,50,200,100);
-            */
+		/*
+            	ctx.fillStyle = "red";
+            	ctx.fillRect(50,50,200,100);
+            	*/
 				
-			ctx.moveTo(0,0);
-			ctx.lineTo(200,100);
-			ctx.stroke();   
+		ctx.moveTo(0,0);
+		ctx.lineTo(200,100);
+		ctx.stroke();   
         </script>  
     </body>
 </html>

@@ -36,12 +36,12 @@ int main(){
 
 	do {	
 		cout << "\tx: ";
-		cin >> x;
+		scanf("%f", &x);
 	} while (x>20 || x<-20);
 	
 	do {
 		cout << "\ty: ";
-		cin >> y;
+		scanf("%f", &y);
 	} while (y>20 || y<-20);
 	
 	cout << endl << "You have introduced the point: (" << x << "," << y << ")" << endl;
